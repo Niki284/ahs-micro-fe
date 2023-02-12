@@ -1,0 +1,1 @@
+Create a folder and build a footer component in html & css (copyright, sitemap links, ...)

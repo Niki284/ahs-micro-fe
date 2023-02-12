@@ -1,0 +1,15 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "Create a folder and build a button component in html & css (hover state, active state, ...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jdb",
+  "license": "ISC",
+  "dependencies": {
+    "@podium/podlet": "^4.4.69",
+    "express": "^4.18.2"
+  }
+}
