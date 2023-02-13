@@ -1,0 +1,22 @@
+.justDont {
+    display: block;
+    width: fit-content;
+    background-color: #59ece6;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    margin: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.justDont:hover {
+    background-color: #fff;
+    color: #59ece6;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.2);
+}
