@@ -1,0 +1,49 @@
+.all {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.froms {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+.form__div {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    max-width: 15rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+.form__div input {
+    padding: 0.5rem;
+    font-weight: 500;
+    transition: 0.5s ease-in;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    
+}
+.form__div input:hover {
+    padding: 0.5rem;
+    transition: 0.5s ease-out;
+    color: blue;
+    
+    background-color: transparent;
+    opacity: 0.6;
+}
+.form__div input:focus {
+    color: blue;
+    opacity: 0.6;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.form__div img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+
