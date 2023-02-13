@@ -1,39 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button {
-    background-color: transparent;
-    color: #000;
-    border: transparent;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-weight: 500;
-    border-radius: .25rem
+  background-color: transparent;
+  color: #000;
+  border: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: .25rem
 }
 
 .button--primary {
-    background-color: #6246ea; 
-    border: .15rem solid #6246ea; 
-    color: white;
-    
+  background-color: #6246ea; 
+  border: .15rem solid #6246ea; 
+  color: white;
+  transition: 0.3s;
 }
 
+.button--primary:hover {
+background-color: #3f24c4; 
+border: .15rem solid #3f24c4; 
+
+}
+
+
 .button--secondary {
-    background-color: #c8c8fa; 
-    border: .15rem solid #c8c8fa; 
-    color: #6246ea;
+  background-color: #c8c8fa; 
+  border: .15rem solid #c8c8fa; 
+  color: #6246ea;
+  transition: 0.3s;
+}
+
+.button--secondary:hover {
+background-color: #b4b4f8; 
+border: .15rem solid #b4b4f8; 
 }
 
 .button--tertiary {
-    color: #e45858; 
-    border: .15rem solid #e45858;
+  color: #e45858; 
+  border: .15rem solid #e45858;
+  transition: 0.3s;
+}
+
+.button--tertiary:hover {
+background-color: #e45858; 
+color: white;
+border: .15rem solid #e45858;
 }
