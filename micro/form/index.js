@@ -20,6 +20,7 @@ podlet.css({ value: 'http://localhost:7102/assets/index.css' });
 
 app.get(podlet.content(), (req, res) => {
     res.status(200).podiumSend(`
+
     `);
 });
 

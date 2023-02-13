@@ -16,10 +16,15 @@ app.use(podlet.middleware());
 
 app.use('/assets', express.static('./css'));
 
-podlet.css({ value: 'http://localhost:7101/assets/index.css' });
+podlet.css({ value: 'http://localhost:7101/assets/main.css' });
 
 app.get(podlet.content(), (req, res) => {
     res.status(200).podiumSend(`
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">Footer</p>
+        </div>
+    </footer>
     `);
 });
 
