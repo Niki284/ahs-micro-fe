@@ -1,0 +1,70 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        font-family: sans-serif;
+        background-color: #efefef;
+        box-shadow: 0 0 2rem rgba(169, 169, 169, 0.5);
+        position: sticky;
+        top: 0;
+    }
+    img {
+        max-width: 100%;
+    }
+    .nav__logo {
+        height: 2rem;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        list-style: none;
+    }
+    nav > ul > li > a {
+        text-decoration: none;
+        color: #f58732;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav > ul > li > a:hover {
+        color: #00a5d9;
+        transition: all 400ms ease-out;
+    }
+</style>
+<header>
+    <img src="./img/artevelde_hs_logo_rgb.png" alt="Logo" class="nav__logo">
+    <nav>
+        <ul id="nav">
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
