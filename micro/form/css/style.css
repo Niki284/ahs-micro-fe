@@ -15,6 +15,7 @@
     max-width: 15rem;
     margin: 0.5rem;
     border-radius: 0.25rem;
+    background-color: lightblue;
 }
 .form__div input {
     padding: 0.5rem;
@@ -30,7 +31,7 @@
     transition: 0.5s ease-out;
     color: blue;
     
-    background-color: transparent;
+    
     opacity: 0.6;
 }
 .form__div input:focus {
